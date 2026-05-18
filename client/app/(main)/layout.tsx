@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "/favicon.ico",
+    icon: "https://neige.app/favicon.ico",
   },
 
   robots: {
