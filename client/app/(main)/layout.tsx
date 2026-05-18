@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     "état des rues",
     "alertes neige",
     "hiver Québec",
-    "neige.app",
+    "Neige.app",
   ],
   authors: [{ name: "Neige.app" }],
   creator: "Neige.app",
   publisher: "Neige.app",
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#111827" },
-    { media: "(prefers-color-scheme: dark)", color: "#111827" },
+    { media: "(prefers-color-scheme: light)", color: "#003DA5" },
+    { media: "(prefers-color-scheme: dark)", color: "#003DA5" },
   ],
 
   metadataBase: new URL("https://neige.app"),
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://info-neige-mtl.vercel.app/logo.png",
+        url: "https://neige.app/logo.png",
         width: 1200,
         height: 630,
         alt: "Neige.app – Déneigement intelligent à Montréal",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     title: "Neige.app | Déneigement à Montréal",
     description:
       "Alertes neige, suivi du déneigement et état des rues à Montréal. Simple, clair et en temps réel.",
-    images: ["https://info-neige-mtl.vercel.app/logo.png"],
+    images: ["https://neige.app/logo.png"],
   },
 
   robots: {
