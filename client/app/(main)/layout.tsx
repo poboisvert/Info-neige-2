@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://neige.app/logo.png",
+        url: "https://neige.app/og_image.webp",
         width: 1200,
         height: 630,
         alt: "Neige.app – Suivi des incidents intelligent à Montréal",
@@ -62,7 +62,11 @@ export const metadata: Metadata = {
     title: "Neige.app | Suivi des incidents",
     description:
       "Alertes neige, Suivi des incidents et état des rues à Montréal. Simple, clair et en temps réel.",
-    images: ["https://neige.app/logo.png"],
+    images: ["https://neige.app/og_image.webp"],
+  },
+
+  icons: {
+    icon: "/favicon.ico",
   },
 
   robots: {

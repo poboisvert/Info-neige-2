@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://neige.app/logo.png",
+        url: "https://neige.app/logo.webp",
         width: 192,
         height: 192,
         alt: "Neige.app Logo",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "Neige.app | Déneigement à Montréal",
     description:
       "Alertes neige, suivi du déneigement et état des rues à Montréal. Simple, clair et en temps réel.",
-    images: ["https://neige.app/logo.png"],
+    images: ["https://neige.app/logo.webp"],
   },
 
   robots: {
@@ -90,7 +90,7 @@ export default async function RootLayout({
   // Next.js itself cannot fully distinguish crawl/sharing bots on the server.
   // So: We'll always render the logo visually at the root for these routes as a fallback.
 
-  // Instructed: "when the link is shared render the logo logo.png from public"
+  // Instructed: "when the link is shared render the logo logo.webp from public"
   // For most bots, the Open Graph image is enough, but we'll add a
   // noscript fallback rendering the logo (for sharing previews) if the user agent disables JS.
 
