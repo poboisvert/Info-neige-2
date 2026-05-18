@@ -40,9 +40,9 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://neige.app"),
 
   openGraph: {
-    title: "Neige.app | Suivi du déneigement à Montréal",
+    title: "Neige.app | Suivi des incidents à Montréal",
     description:
-      "Suivez le déneigement à Montréal : opérations en cours, alertes neige et état des rues en temps réel avec Neige.app.",
+      "Suivi des incidents : opérations en cours, alertes neige et état des rues en temps réel avec Neige.app.",
     url: "https://neige.app",
     siteName: "Neige.app",
     locale: "fr_CA",
@@ -52,16 +52,16 @@ export const metadata: Metadata = {
         url: "https://neige.app/logo.png",
         width: 1200,
         height: 630,
-        alt: "Neige.app – Déneigement intelligent à Montréal",
+        alt: "Neige.app – Suivi des incidents intelligent à Montréal",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Neige.app | Déneigement à Montréal",
+    title: "Neige.app | Suivi des incidents",
     description:
-      "Alertes neige, suivi du déneigement et état des rues à Montréal. Simple, clair et en temps réel.",
+      "Alertes neige, Suivi des incidents et état des rues à Montréal. Simple, clair et en temps réel.",
     images: ["https://neige.app/logo.png"],
   },
 
